@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [hcl Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="methods" name="hcl test(failed)" verbose="0">
+    <classes>
+      <class name="tests.LetCodeHomePageTest">
+        <methods>
+          <include name="testPricesFromTable"/>
+          <include name="MultiselectTest"/>
+          <include name="testWindowHandling"/>
+          <include name="selectTest1"/>
+          <include name="testAlerts"/>
+          <include name="openBrowser"/>
+          <include name="afterSuite"/>
+          <include name="quitBrowser"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- tests.LetCodeHomePageTest -->
+      <class name="tests.OrangePageTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="afterSuite"/>
+          <include name="quitBrowser"/>
+          <include name="beforeSuite"/>
+          <include name="testLoginAndButtonEnableStatus"/>
+        </methods>
+      </class> <!-- tests.OrangePageTest -->
+      <class name="tests.OmayoPageTest">
+        <methods>
+          <include name="testFileUpload"/>
+          <include name="openBrowser"/>
+          <include name="afterSuite"/>
+          <include name="quitBrowser"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- tests.OmayoPageTest -->
+      <class name="tests.ActionsTest">
+        <methods>
+          <include name="mouseHoverTest"/>
+          <include name="openBrowser"/>
+          <include name="testCaps"/>
+          <include name="afterSuite"/>
+          <include name="quitBrowser"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- tests.ActionsTest -->
+    </classes>
+  </test> <!-- hcl test(failed) -->
+</suite> <!-- Failed suite [hcl Suite] -->

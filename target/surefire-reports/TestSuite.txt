@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 6, Errors: 0, Skipped: 21, Time elapsed: 37.355 s <<< FAILURE! - in TestSuite
+tests.LetCodeHomePageTest.openBrowser[public void tests.LetCodeHomePageTest.selectTest1() throws java.lang.Exception](0)  Time elapsed: 6.159 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JOKB8D4', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+tests.LetCodeHomePageTest.openBrowser[public void tests.LetCodeHomePageTest.MultiselectTest() throws java.lang.Exception](0)  Time elapsed: 6.16 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JOKB8D4', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+tests.OmayoPageTest.testFileUpload  Time elapsed: 4.312 s  <<< FAILURE!
+org.openqa.selenium.InvalidArgumentException: 
+File not found: C:\Users\Harsha\IdeaProjects\Hcl_Ramesh_Project/screenShots/myfile.png
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JOKB8D4', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 18052, moz:profile: C:\Users\Harsha\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e462c3e0-0908-48f3-a935-24b0cd435e18
+	at tests.OmayoPageTest.testFileUpload(OmayoPageTest.java:17)
+
+tests.OrangePageTest.testLoginAndButtonEnableStatus  Time elapsed: 4.129 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #Subscriber_link (tried for 5 second(s) with 500 milliseconds interval)
+	at tests.OrangePageTest.testLoginAndButtonEnableStatus(OrangePageTest.java:17)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #Subscriber_link
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JOKB8D4', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 18016, moz:profile: C:\Users\Harsha\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6859862a-c351-4e04-acd8-4be935e032c7
+*** Element info: {Using=css selector, value=#Subscriber_link}
+	at tests.OrangePageTest.testLoginAndButtonEnableStatus(OrangePageTest.java:17)
+
+tests.ActionsTest.mouseHoverTest  Time elapsed: 9.595 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JOKB8D4', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 34528, moz:profile: C:\Users\Harsha\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72696811-1540-4c3e-a5d9-476b75f96e38
+	at tests.ActionsTest.mouseHoverTest(ActionsTest.java:23)
+
+tests.ActionsTest.quitBrowser[[TestResult name=mouseHoverTest status=FAILURE method=ActionsTest.mouseHoverTest()[pri:0, instance:tests.ActionsTest@6d3a388c] output={null}]](0)  Time elapsed: 9.595 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JOKB8D4', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210310152336, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 34528, moz:profile: C:\Users\Harsha\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72696811-1540-4c3e-a5d9-476b75f96e38
+
